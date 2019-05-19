@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 59.003261 65.149766"
+   height="65.149765mm"
+   width="59.003262mm">
+  <defs
+     id="defs2">
+    <linearGradient
+       osb:paint="solid"
+       id="linearGradient1001">
+      <stop
+         id="stop999"
+         offset="0"
+         style="stop-color:#c100c3;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       osb:paint="solid"
+       id="linearGradient995">
+      <stop
+         id="stop993"
+         offset="0"
+         style="stop-color:#00c300;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       osb:paint="solid"
+       id="linearGradient989">
+      <stop
+         id="stop987"
+         offset="0"
+         style="stop-color:#0000c6;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       osb:paint="solid"
+       id="linearGradient983">
+      <stop
+         id="stop981"
+         offset="0"
+         style="stop-color:#c10000;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="50.326675"
+       x2="46.103264"
+       y1="50.326675"
+       x1="30.903265"
+       id="linearGradient985"
+       xlink:href="#linearGradient983" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="50.326675"
+       x2="61.303265"
+       y1="50.326675"
+       x1="46.103268"
+       id="linearGradient991"
+       xlink:href="#linearGradient989" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="50.326675"
+       x2="76.503265"
+       y1="50.326675"
+       x1="61.303268"
+       id="linearGradient997"
+       xlink:href="#linearGradient995" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="50.326675"
+       x2="91.703262"
+       y1="50.326675"
+       x1="76.503265"
+       id="linearGradient1003"
+       xlink:href="#linearGradient1001" />
+  </defs>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-30.903265,-38.37691)"
+     id="layer1">
+    <g
+       id="g946">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="32.329655"
+         y="41.057194"
+         id="text859"><tspan
+           id="tspan857"
+           x="32.329655"
+           y="41.057194"
+           style="font-size:3.52777767px;stroke-width:0.26458332">Bank 0</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="47.575302"
+         y="41.057194"
+         id="text859-3"><tspan
+           id="tspan857-5"
+           x="47.575302"
+           y="41.057194"
+           style="font-size:3.52777767px;stroke-width:0.26458332">Bank 1</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="62.789085"
+         y="41.057194"
+         id="text859-3-6"><tspan
+           id="tspan857-5-2"
+           x="62.789085"
+           y="41.057194"
+           style="font-size:3.52777767px;stroke-width:0.26458332">Bank 2</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="77.953766"
+         y="41.057194"
+         id="text859-3-6-9"><tspan
+           id="tspan857-5-2-1"
+           x="77.953766"
+           y="41.057194"
+           style="font-size:3.52777767px;stroke-width:0.26458332">Bank 3</tspan></text>
+    </g>
+    <g
+       id="g1157">
+      <rect
+         style="opacity:1;vector-effect:none;fill:url(#linearGradient985);fill-opacity:1;stroke:#ffffff;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect815"
+         width="15"
+         height="15"
+         x="31.003265"
+         y="42.826675" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="34.346756"
+         y="52.894993"
+         id="text975"><tspan
+           id="tspan973"
+           x="34.346756"
+           y="52.894993"
+           style="font-size:7.05555534px;fill:#ffffff;stroke-width:0.26458332">T0</tspan></text>
+    </g>
+    <g
+       transform="translate(-15.200001,15.2)"
+       id="g1142">
+      <rect
+         style="opacity:1;vector-effect:none;fill:url(#linearGradient991);fill-opacity:1;stroke:#ffffff;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect815-3"
+         width="15"
+         height="15"
+         x="46.203266"
+         y="42.826675" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="49.546757"
+         y="52.894993"
+         id="text975-2"><tspan
+           id="tspan973-7"
+           x="49.546757"
+           y="52.894993"
+           style="font-size:7.05555534px;fill:#ffffff;stroke-width:0.26458332">T1</tspan></text>
+    </g>
+    <g
+       transform="translate(-30.400002,30.4)"
+       id="g1147">
+      <rect
+         style="opacity:1;vector-effect:none;fill:url(#linearGradient997);fill-opacity:1;stroke:#ffffff;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect815-7"
+         width="15"
+         height="15"
+         x="61.403267"
+         y="42.826675" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="64.838051"
+         y="52.894993"
+         id="text975-2-0"><tspan
+           id="tspan973-7-9"
+           x="64.838051"
+           y="52.894993"
+           style="font-size:7.05555534px;fill:#ffffff;stroke-width:0.26458332">T2</tspan></text>
+    </g>
+    <g
+       transform="translate(-45.599999,45.6)"
+       id="g1152">
+      <rect
+         style="opacity:1;vector-effect:none;fill:url(#linearGradient1003);fill-opacity:1;stroke:#ffffff;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect815-3-5"
+         width="15"
+         height="15"
+         x="76.603264"
+         y="42.826675" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="80.038048"
+         y="52.894993"
+         id="text975-2-0-3"><tspan
+           id="tspan973-7-9-6"
+           x="80.038048"
+           y="52.894993"
+           style="font-size:7.05555534px;fill:#ffffff;stroke-width:0.26458332">T3</tspan></text>
+    </g>
+  </g>
+</svg>
