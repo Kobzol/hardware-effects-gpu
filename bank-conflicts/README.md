@@ -24,9 +24,9 @@ $ bank-conflicts <offset>
 ```
 
 The program will spawn exactly one warp of threads (32 threads in a single block). The threads will
-then repeatedly read and write to shared memory at address starting at `threadIdx.x * offset`.
-The address will then be incremented by `32 * 4`, which will not change the bank and is in the code
-just to avoid the compiler from optimizating the accesses away.
+then repeatedly read and write a 32-bit integer to shared memory at address starting
+at `threadIdx.x * offset`. The address will then be incremented by `32 * 4`, which will not change the bank and is in the code
+just to avoid the compiler from optimizing the accesses away.
 
 Suppose that there are only 4 threads and 4 memory banks. With `offset=1`, the bank mapping will look
 like this:

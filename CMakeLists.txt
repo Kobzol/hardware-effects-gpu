@@ -7,3 +7,4 @@ set(CMAKE_CUDA_COMPILER /usr/local/cuda/bin/nvcc)
 enable_language(CUDA)
 
 add_subdirectory(bank-conflicts)
+add_subdirectory(memory-coalescing)

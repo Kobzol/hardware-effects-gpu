@@ -3,6 +3,7 @@ import os
 import platform
 import subprocess
 import sys
+from collections import Iterable
 
 import __main__
 import pandas
@@ -37,19 +38,19 @@ def run_repeatable(executable, repeat, parameters, pin_to_cpu):
         yield res.stderr.decode().strip()
 
 
-def benchmark(input_data, pin_to_cpu=False, repeat=5, y_axis="Time"):
+def benchmark(keys, inputs, pin_to_cpu=False, repeat=5, y_axis="Time"):
     if len(sys.argv) < 2:
         print("Usage: python3 {} <path-to-executable>".format(__main__.__file__))
         exit(1)
 
     executable = get_executable()
-
-    keys = [d[0] for d in input_data]
-    inputs = itertools.product(*[d[1] for d in input_data])
-
     frame = pandas.DataFrame(columns=keys + [y_axis])
 
     for values in inputs:
+        if not isinstance(values, Iterable):
+            values = [values]
+        values = list(values)
+
         times = [float(res) for res in run_repeatable(executable, repeat, values, pin_to_cpu)]
         value = sum(times) / len(times)
 

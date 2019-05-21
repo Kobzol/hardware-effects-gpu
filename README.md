@@ -1,7 +1,9 @@
 # GPU hardware effects
 This repository demonstrates hardware effects that can affect application performance on
 Nvidia CUDA GPUs. For each effect I try to create a proof of concept program that is as small
-as possible so that it can be understood easily.
+as possible so that it can be understood easily. My goal is to demonstrate effects that are caused
+by the underlying hardware architecture design and cannot be explained by looking at the
+source code alone.
 
 Related repository with CPU hardware effects: https://github.com/kobzol/hardware-effects
 

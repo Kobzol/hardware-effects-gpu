@@ -9,10 +9,13 @@ sys.path.append(ROOT)
 from utils import benchmark
 
 
-keys = ["Offset"]
-values = [0, 1, 2, 4, 8, 16, 32, 36]
+keys = ["Start offset", "Move offset"]
+values = [
+    (1, 32),
+    (32, 1),
+]
 
 frame = benchmark(keys, values)
 
-g = seaborn.barplot(data=frame, x="Offset", y="Time")
+g = seaborn.barplot(data=frame, x="Start offset", y="Time", hue="Move offset")
 plt.show()
