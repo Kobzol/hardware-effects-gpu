@@ -12,7 +12,7 @@ __global__ void kernel(Type* memory, int startOffset, int moveOffset)
 {
     int threadId = threadIdx.x;
 
-    // repeatedly read and write to shared memory
+    // repeatedly read and write to global memory
     uint32_t index = threadId * startOffset;
     for (int i = 0; i < 4000; i++)
     {
