@@ -14,6 +14,7 @@ Currently the following effects are demonstrated:
 
 - bank conflicts
 - memory access coalescing
+- shared memory resource limits
 
 Every example directory has a README that explains the individual effects.
 

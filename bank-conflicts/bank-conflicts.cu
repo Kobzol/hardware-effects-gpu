@@ -38,6 +38,7 @@ static void benchmark(int offset)
     {
         CudaTimer timer;
         kernel<<<1, 32>>>(offset);  // launch exactly one warp
+        CHECK_CUDA_CALL(cudaPeekAtLastError());
         timer.stop_wait();
         time += timer.get_time();
     }

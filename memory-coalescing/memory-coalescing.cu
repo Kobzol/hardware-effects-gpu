@@ -31,6 +31,7 @@ static void benchmark(int startOffset, int moveOffset)
     {
         CudaTimer timer;
         kernel<<<1, 32>>>(memory.pointer(), startOffset, moveOffset);  // launch exactly one warp
+        CHECK_CUDA_CALL(cudaPeekAtLastError());
         timer.stop_wait();
         time += timer.get_time();
     }
@@ -40,8 +41,6 @@ static void benchmark(int startOffset, int moveOffset)
 
 void run(int startOffset, int moveOffset)
 {
-    auto prop = initGPU();
-    std::cout << "Warp size: " << prop.warpSize << std::endl;
-
+    initGPU();
     benchmark(startOffset, moveOffset);
 }

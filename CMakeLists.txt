@@ -8,3 +8,4 @@ enable_language(CUDA)
 
 add_subdirectory(bank-conflicts)
 add_subdirectory(memory-coalescing)
+add_subdirectory(shared-memory-limit)

@@ -105,6 +105,9 @@ Invocations                        Metric Name                        Metric Des
 The last integer of each access falls into a fifth memory block, therefore there are 5 memory transactions per access
 instead of just four.
 
+You can use the provided `benchmark.py` script to test various `startOffset` and `moveOffset` combinations
+and plot their relative speeds.
+
 ```bash
 $ python3 benchmark.py <path-to-executable>
 ```
