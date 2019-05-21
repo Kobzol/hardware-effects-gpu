@@ -11,7 +11,6 @@ using Type = uint32_t;
 __global__ void kernel(Type* memory, int startOffset, int moveOffset)
 {
     int threadId = threadIdx.x;
-    memory = memory + 1;
 
     // repeatedly read and write to shared memory
     uint32_t index = threadId * startOffset;
