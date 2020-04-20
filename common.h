@@ -14,7 +14,7 @@ inline void checkCudaCall(cudaError_t error, const char* file, int line)
 #define CHECK_CUDA_CALL(err) (checkCudaCall(err, __FILE__, __LINE__))
 #define DISABLE_COPY(T) T(const T& other) = delete;\
 T& operator=(const T& other) = delete;\
-T(const T&& other) = delete;
+T(const T&& other) = delete
 
 
 inline cudaDeviceProp initGPU()
