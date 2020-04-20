@@ -1,1 +1,1 @@
-cuda_add_executable(bank-conflicts init.cpp bank-conflicts.cu)
+add_executable(bank-conflicts init.cpp bank-conflicts.cu)
