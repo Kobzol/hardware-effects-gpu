@@ -127,3 +127,5 @@ fabric.properties
 *.fatbin
 
 # End of https://www.gitignore.io/api/c++,cuda,clion
+
+/build
