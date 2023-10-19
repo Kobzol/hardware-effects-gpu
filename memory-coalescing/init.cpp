@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 void run(int startOffset, int moveOffset);
 
