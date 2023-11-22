@@ -2,8 +2,9 @@ cmake_minimum_required(VERSION 3.0)
 project(hardware-effects-gpu)
 
 find_package(CUDA REQUIRED)
+message(STATUS "Found CUDA version: ${CUDA_VERSION}")
 
-set(CMAKE_CUDA_COMPILER /usr/local/cuda/bin/nvcc)
+set(CMAKE_CUDA_COMPILER ${CUDA_TOOLKIT_ROOT_DIR}/bin/nvcc)
 enable_language(CUDA)
 
 add_subdirectory(bank-conflicts)
